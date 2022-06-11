@@ -1,0 +1,32 @@
+<html style="width: 150px">
+  <head>
+    <title>YT Speed Control</title>
+  </head>
+
+  <script src="./jquery-3.6.0.min.js"></script>
+  <script src="./popup.js"></script>
+  <style>
+    .center {
+      text-align:center
+    }
+  </style>
+
+  <body id="body">
+    <div class="center">
+      <label for="customizedSpeed">Speed:</label>
+      <input type="text" id="customizedSpeed" name="customizedSpeed" size="4" />
+      <button id="setCustomizeSpeed">Set</button>
+    </div>
+    <hr />
+    <div class="center">
+      <button class="providedSpeed" data-speed="1">Reset</button>
+      <button class="providedSpeed" data-speed="1.5">1.5x</button>
+      <button class="providedSpeed" data-speed="2">2x</button>
+      <button class="providedSpeed" data-speed="2.5">2.5x</button>
+      <button class="providedSpeed" data-speed="3">3x</button>
+      <button class="providedSpeed" data-speed="5">5x</button>
+    </div>
+    <hr />
+    <p id="message"></p>
+  </body>
+</html>
